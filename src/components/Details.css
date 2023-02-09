@@ -1,0 +1,51 @@
+.back-btn {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 0;
+  padding-top: 4px;
+  background-color: #ffffff30;
+  font-size: 25px;
+  font-weight: 100;
+  padding-left: 10px;
+  display: flex;
+}
+
+.details-header {
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 100;
+  align-self: center;
+}
+
+.detail-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.details-tab {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.colortab {
+  background-color: #ffffff30;
+}
+
+.space {
+  margin-top: 40px;
+}
+
+.bottomspace {
+  margin-bottom: 40px;
+}
