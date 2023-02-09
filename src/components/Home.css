@@ -1,80 +1,77 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
+
 @font-face {
-    font-family: myFont;
-    src: url('./media/Gill\ Sans.otf');
-  }
-
-body{
-    background-color: #000;
-    color: #fff;
-    padding-top: 0;
-    margin: 0;
-    font-family: myFont, 'lato', sans-serif;
+  font-family: myFont;
+  src: url('./media/Gill\ Sans.otf');
 }
 
-.home-title{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 10px;
-    font-weight: 100;
-    text-align: center;
-    font-size: 18px;
-    background-color: #ffffff30;
+body {
+  background-color: #000;
+  color: #fff;
+  padding-top: 0;
+  margin: 0;
+  font-family: myFont, 'lato', sans-serif;
 }
 
-.row{
-    padding-top: 42px;
-    display: grid;
-    grid-template-columns: auto auto;
+.home-title {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
+  font-weight: 100;
+  text-align: center;
+  font-size: 18px;
+  background-color: #ffffff30;
 }
 
-.card-pic{
-    height: 100px;
-    width: 100px;
-    border-radius: 10px;
+.row {
+  padding-top: 42px;
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
-a{
-    padding: 0;
-    margin: 0;
-    color: #fff;
-    text-decoration: none;
-    padding-bottom: 0;
+.card-pic {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
 }
 
-.card-filnumb{
-    margin: 0;
+a {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 0;
 }
 
-#color{
-    background-color: #ffffff20;
+#color {
+  background-color: #ffffff20;
 }
 
-.card-container{
-    display: flex;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+.card-container {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
 
-.details-container{
-    padding-left: 10px;
-    font-size: 15px;
-    align-self: center;
+.details-container {
+  padding-left: 10px;
+  font-size: 15px;
+  align-self: center;
 }
 
-.card-name{
-    margin-top: 0;
-    padding-top: 0;
-    font-weight: 100;
+.card-name {
+  margin-top: 0;
+  padding-top: 0;
+  font-weight: 100;
 }
 
-.card-filnumb{
-    margin-top: 0;
-    padding-top: 0;
-    font-weight: 100;
+.card-filnumb {
+  margin-top: 0;
+  padding-top: 0;
+  font-weight: 100;
 }
