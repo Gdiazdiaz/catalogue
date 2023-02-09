@@ -1,7 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import { render } from '@testing-library/react';
-import Details from '../components/Details'
+import Details from '../components/Details';
 import '@testing-library/jest-dom';
 import store from '../redux/configureStore';
 
