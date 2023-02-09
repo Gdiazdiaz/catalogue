@@ -60,8 +60,8 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo tbd]()
-- [Description video tbd]()
+- [Live Demo](https://characters-catalogue.onrender.com)
+- [Description video](https://www.loom.com/share/849247eb06c2482cad50e008b6d69ee6)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
