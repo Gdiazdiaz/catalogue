@@ -15,8 +15,11 @@ const getData = async () => {
       const result = await fetch(API_URL);
       const data = await result.json();
       const data2 = data.data;
-      for(let i=0; i<data2.length; i++){
-        data2[i].index = i;
+      for(let i=1; i<data2.length; i+=4){
+        data2[i].index = "color";
+    }
+    for(let j=2; j<data2.length; j+=4){
+      data2[j].index = "color";
     }
     return data2;
     } catch (error) {
