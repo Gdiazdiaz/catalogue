@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@font-face {
+    font-family: myFont;
+    src: url('./media/Gill\ Sans.otf');
+  }
+
+body{
+    background-color: #000;
+    color: #fff;
+    padding-top: 0;
+    margin: 0;
+    font-family: myFont, 'lato', sans-serif;
+}
+
+.home-title{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    background-color: #ffffff30;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.card-pic{
+    height: 100px;
+    width: 100px;
+}
+
+a{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 0;
+}
+
+.card-filnumb{
+    margin: 0;
+}
+
+#color2{
+    background-color: #ffffff20;
+}
